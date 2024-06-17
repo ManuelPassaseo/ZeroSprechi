@@ -39,6 +39,13 @@ ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa
       
 9. Logout.
 
+## Installazione
+
+Per utilizzare ZeroSprechi sul tuo dispositivo Android:
+
+1. Scarica il file APK più recente dal repository direttamente dal dispositvo in cui userai l'app.
+2. Abilita l'installazione da fonti sconosciute nelle impostazioni del dispositivo.
+3. Installa l'applicazione sul tuo dispositivo Android.
 
 ## Tecnologie Utilizzate
 
@@ -47,14 +54,10 @@ ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa
 - SQLite per la gestione dei dati locali
 - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart/tree/master) libreria per visualizzare il grafico relativo alle statistiche. 
 
+### Database Schema
 
-## Installazione
+![image](https://github.com/ManuelPassaseo/ZeroSprechi/assets/82704502/1f9cf3a2-5b24-4a83-bc39-ed1c3c45f9a7)
 
-Per utilizzare ZeroSprechi sul tuo dispositivo Android:
-
-1. Scarica il file APK più recente dal repository direttamente dal dispositvo in cui userai l'app.
-2. Abilita l'installazione da fonti sconosciute nelle impostazioni del dispositivo.
-3. Installa l'applicazione sul tuo dispositivo Android.
 
 ## Contatti
 
