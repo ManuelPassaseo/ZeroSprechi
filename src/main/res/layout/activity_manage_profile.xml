@@ -72,6 +72,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.113" />
 
+
         <Button
             android:id="@+id/editPersonalInfo"
             android:layout_width="194dp"
@@ -87,8 +88,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.866" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="1.0" />
 
         <Button
             android:id="@+id/editModifyProfile"
@@ -104,26 +105,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editPersonalInfo"
-            app:layout_constraintVertical_bias="0.148" />
-
-        <Button
-            android:id="@+id/buttonNotify"
-            android:layout_width="195dp"
-            android:layout_height="48dp"
-            android:ems="10"
-            android:inputType="text"
-            android:minHeight="48dp"
-            android:text="Abilita Notifiche"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editModifyProfile"
-            app:layout_constraintVertical_bias="0.236" />
+            app:layout_constraintVertical_bias="0.223" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView2"
             android:layout_width="171dp"
             android:layout_height="133dp"
             android:layout_marginBottom="452dp"
@@ -156,7 +141,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:layout_marginBottom="380dp"
 
 
             android:drawableStart="@drawable/baseline_person_24"
@@ -166,7 +150,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmail"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -28,7 +28,6 @@ public class ManageProfileActivity extends AppCompatActivity {
         TextView tvEmail = findViewById(R.id.textViewEmail);
         Button etPersonalInfo = findViewById(R.id.editPersonalInfo);
         Button etModifyProfile = findViewById(R.id.editModifyProfile);
-        Button btnNotify = findViewById(R.id.buttonNotify);
         ImageView helpImage = findViewById(R.id.imageView);
         ImageView backImage = findViewById(R.id.backImage);
 
@@ -37,13 +36,6 @@ public class ManageProfileActivity extends AppCompatActivity {
 
         tvNameSurname.setText(String.format("%s %s", user.getName(), user.getSurname()));
         tvEmail.setText(user.getEmail());
-
-        btnNotify.setOnClickListener(v -> {
-            Intent intent = new Intent();
-            intent.setAction("android.settings.APP_NOTIFICATION_SETTINGS");
-            intent.putExtra("android.provider.extra.APP_PACKAGE", getPackageName());
-            startActivity(intent);
-        });
 
         etPersonalInfo.setOnClickListener(v ->
                 startActivity(new Intent(ManageProfileActivity.this, PersonalInfoActivity.class)));

@@ -107,7 +107,10 @@
         android:fontFamily="sans-serif-black"
 
         android:hint="Inserisci il prezzo..."
-        android:inputType="number"
+
+        android:inputType="numberDecimal"
+        android:digits="0123456789."
+
         android:minHeight="48dp"
         android:textAlignment="center"
         android:textColor="@color/black"

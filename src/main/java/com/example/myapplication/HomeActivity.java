@@ -40,8 +40,8 @@ public class HomeActivity extends AppCompatActivity {
         contacUs.setOnClickListener(v -> {
             Intent intent1 = new Intent(Intent.ACTION_SEND);
             intent1.setType("text/plain");
-            intent1.putExtra(Intent.EXTRA_EMAIL, new String[]{"zerosprechi@gmail.com"});
-            intent1.putExtra(Intent.EXTRA_TEXT, "");
+            intent1.putExtra(Intent.EXTRA_EMAIL, new String[]{"teamzerosprechi@gmail.com"});
+            intent1.putExtra(Intent.EXTRA_TEXT, "Ciao! Sono un utente dell'App ZeroSprechi.\n\nVi contatto per ...");
             startActivity(Intent.createChooser(intent1, "Send Email"));
         });
 

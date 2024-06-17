@@ -10,10 +10,11 @@
 
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
+
         android:enableOnBackInvokedCallback="true"
-        android:fullBackupContent="@xml/backup_rules"
+
         android:icon="@drawable/start"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -66,7 +67,6 @@
         </activity>
 
 
-        <receiver android:name=".Notification.ReminderBroadcast" />
     </application>
 
 </manifest>
