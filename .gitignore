@@ -45,7 +45,6 @@ proguard/
 *.pro
 
 # Ignore androidTest folder
-androidTest/java/com/example/myapplication
-
+C:\Users\manue\OneDrive\Desktop\UNI\2_anno_2_semestre\P_Oggetti\Esercizi_Lab\Android\app\src/test
 # Ignore test folder
-test/java/com/example/myapplication
+C:\Users\manue\OneDrive\Desktop\UNI\2_anno_2_semestre\P_Oggetti\Esercizi_Lab\Android\app\src/androidTest
