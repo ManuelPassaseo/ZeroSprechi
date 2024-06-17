@@ -37,3 +37,9 @@ proguard/
 *.swo
 *~
 .DS_Store
+
+# Ignore Kotlin Script files
+*.kts
+
+# Ignore Proguard files
+*.pro
