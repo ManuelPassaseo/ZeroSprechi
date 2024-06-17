@@ -1,6 +1,6 @@
 # ZeroSprechi
 ## Descrizione
-ZeroSprechi è un'applicazione Android sviluppata per aiutare gli utenti a ridurre lo spreco di risorse alimentari monitorando e gestendo le scorte di cibo.
+ZeroSprechi è un'applicazione Android sviluppata per aiutare gli utenti a ridurre lo spreco di risorse alimentari monitorandone le scadenze.
 
 ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa, monitorarne la scadenza e visionare le statistiche sui prodotti scaduti.
 
