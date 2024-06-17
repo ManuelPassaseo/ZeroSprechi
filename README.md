@@ -17,15 +17,22 @@ ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa
   scontrini o la loro cancellazione.
 
 ### Gestione Scadenze:
-### Suggerimenti personalizzati per ricette basate sugli ingredienti disponibili.
-### Interfaccia intuitiva e facile da usare per gli utenti.
 
+  Questa sezione consente di visualizzare i prodotti già scaduti e quelli prossimi 
+  alla scadenza, al fine di prevenire il loro spreco
+
+### Statistiche:
+
+  Questa sezione fornisce statistiche in base all’anno di scadenza del prodotto ed in 
+  base alla sua categoria.
+  In questo modo gli utenti possono adottare strategie mirate per ridurre il fenomeno.
+
+  
 ## Tecnologie Utilizzate
 
 - Java
 - Android Studio
 - SQLite per la gestione dei dati locali
-- Notifiche push per avvisi di scadenza
 
 ## Installazione
 
@@ -38,27 +45,34 @@ Per utilizzare ZeroSprechi sul tuo dispositivo Android:
 ## Utilizzo
 
 1. Avvia l'applicazione ZeroSprechi.
-2. Aggiungi gli alimenti presenti in dispensa utilizzando l'interfaccia intuitiva.
-3. Visualizza le notifiche di scadenza e gestisci gli alimenti per evitare lo spreco.
-4. Esplora le ricette suggerite basate sugli alimenti disponibili.
 
-## Contributi
+2. Registrazione Account:
 
-Siamo aperti ai contributi da parte della comunità! Se desideri contribuire al progetto, segui i passaggi seguenti:
+Crea un nuovo account compilando tutti i campi richiesti: data di nascita valida, email valida e password forte (almeno 8 caratteri, con lettere maiuscole e minuscole, almeno un numero e almeno un carattere speciale).
+3. Login.
 
-1. Forka il repository e clona il tuo fork.
-2. Crea un branch per la tua modifica (`git checkout -b feature/nome-della-funzionalita`).
-3. Esegui il commit delle tue modifiche (`git commit -am 'Aggiunta di una nuova funzionalità'`).
-4. Pusha il branch al tuo repository remoto (`git push origin feature/nome-della-funzionalita`).
-5. Invia una pull request nel repository originale.
+4. Gestione Spesa:
 
-## Licenza
+Visualizza gli scontrini inseriti.
+Aggiungi nuovi scontrini o elimina quelli già presenti.
+5. Gestione Scadenze:
 
-Questo progetto è sotto licenza MIT - vedi il file [LICENSE](LICENSE) per maggiori dettagli.
+Visualizza i prodotti scaduti e quelli in scadenza.
+6. Statistiche:
+
+Visualizza le statistiche per categoria di prodotti scaduti e per anno di scadenza.
+7. Gestione Profilo:
+
+Visualizza le informazioni del proprio profilo.
+Modifica le informazioni del profilo se necessario.
+8. Contattaci:
+
+Invia un'email per contattare il supporto.
+9. Logout.
 
 ## Contatti
 
-Per qualsiasi domanda o feedback, puoi contattarmi all'indirizzo email manuelpassaseo@example.com.
+Per qualsiasi domanda o feedback, puoi contattarmi all'indirizzo email zerosprechi@gmail.com
 
 ---
 
