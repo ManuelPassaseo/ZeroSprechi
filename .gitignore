@@ -45,7 +45,7 @@ proguard/
 *.pro
 
 # Ignore androidTest folder
-androidTest/java/com/example/myapplication/
+androidTest/java/com/example/myapplication
 
 # Ignore test folder
-test/java/com/example/myapplication/
+test/java/com/example/myapplication
