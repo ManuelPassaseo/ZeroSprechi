@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="dk_green">#FF006400</color>
+    <color name="lt_green">#FF00FF00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="yellow">#FFFF00FF</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="purple">#FF800080</color>
+    <color name="pink">#FFFFC0CB</color>
+    <color name="grey">#FF808080</color>
+    <color name="dk_grey">#FF404040</color>
+    <color name="dk_blue">#FF000080</color>
+    <color name="lt_yellow">#FFFF8000</color>
+    <color name="lt_red">#FFFF0000</color>
+    <color name="dk_orange">#FF804000</color>
+    <color name="dk_purple">#FF400040</color>
+    <color name="dk_pink">#FF800080</color>
+    <color name="lt_orange">#FFFFA500</color>
+    <color name="lt_purple">#FF800080</color>
+    <color name="lt_pink">#FFFFC0CB</color>
+    <color name="lt_grey">#FFC0C0C0</color>
+    <color name="dk_black">#FF000000</color>
+    <color name="dk_white">#FFFFFFFF</color>
+
+    <color name="dk_yellow">#FF808000</color>
+    <color name="lt_blue">#FF00FFFF</color>
+    <color name="dk_red">#FF800000</color>
+
+</resources>

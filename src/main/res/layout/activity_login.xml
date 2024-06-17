@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+        tools:context=".LoginActivity.LoginActivity">
+
+        <EditText
+            android:id="@+id/tfLoginPassword"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginBottom="352dp"
+
+            android:background="@drawable/custom_input"
+            android:drawableLeft="@drawable/sharp_admin_panel_settings_24"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Inserisci una password..."
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfLoginUsername" />
+
+        <TextView
+            android:id="@+id/labelLogin"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="LOGIN"
+
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.141" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="208dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfLoginPassword"
+            app:layout_constraintVertical_bias="0.893" />
+
+        <TextView
+            android:id="@+id/labelRegister"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:text="@string/register"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
+            app:layout_constraintVertical_bias="0.48" />
+
+        <EditText
+            android:id="@+id/tfLoginUsername"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="352dp"
+            android:background="@drawable/custom_input"
+
+            android:drawableLeft="@drawable/baseline_alternate_email_24"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Inserisci una email..."
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelLogin"
+            app:layout_constraintVertical_bias="0.415" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

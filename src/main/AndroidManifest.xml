@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/start"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".TrashManager.CloseExpirationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrashManager.ExpiredActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GraphManager.GraphActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrashManager.TrashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageShopping.AddShoppingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ManageShopping.ShoppingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ManageProfile.ModifyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageProfile.PersonalInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageProfile.ManageProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <receiver android:name=".Notification.ReminderBroadcast" />
+    </application>
+
+</manifest>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".LoginActivity.LoginActivity"
+
+        >
+
+        <EditText
+            android:id="@+id/tfRegisterPassword"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginBottom="136dp"
+            android:autofillHints=""
+            android:background="@drawable/custom_input"
+
+
+            android:drawableStart="@drawable/sharp_admin_panel_settings_24"
+            android:drawablePadding="30dp"
+            android:ems="10"
+
+
+            android:fontFamily="sans-serif-black"
+            android:hint="Inserisci una password..."
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfRegisterEmail"
+            app:layout_constraintVertical_bias="0.181" />
+
+        <TextView
+            android:id="@+id/labelRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="REGISTRAZIONE"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.073" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="52dp"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfRegisterPassword"
+            app:layout_constraintVertical_bias="0.494" />
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/tornadietro"
+            android:textColor="@color/black"
+
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonRegister"
+            app:layout_constraintVertical_bias="0.452" />
+
+        <EditText
+            android:id="@+id/tfRegisterAddress"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_add_home_24"
+            android:drawablePadding="30dp"
+
+
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Inserisci indirizzo..."
+            android:inputType="text"
+            android:textColor="@color/black"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfRegisterSurname"
+            app:layout_constraintVertical_bias="0.023" />
+
+        <EditText
+            android:id="@+id/tfRegisterEmail"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_alternate_email_24"
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Inserisci una email..."
+
+
+            android:inputType="text"
+            android:textColor="@color/black"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfRegisterBirthday" />
+
+        <EditText
+            android:id="@+id/tfRegisterName"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="512dp"
+            android:background="@drawable/custom_input"
+
+            android:drawableStart="@drawable/baseline_person_24"
+
+
+            android:drawablePadding="30dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+
+
+            android:hint="Inserisci nome..."
+            android:inputType="text"
+
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/labelRegister"
+            app:layout_constraintVertical_bias="0.594" />
+
+        <EditText
+            android:id="@+id/tfRegisterSurname"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_input"
+
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="30dp"
+
+
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Inserisci cognome..."
+            android:inputType="text"
+            android:textColor="@color/black"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfRegisterName"
+            app:layout_constraintVertical_bias="0.036" />
+
+        <EditText
+            android:id="@+id/tfRegisterBirthday"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/baseline_cake_24"
+            android:drawablePadding="30dp"
+            android:ems="10"
+
+            android:fontFamily="sans-serif-black"
+
+
+            android:hint="YYYY-MM-DD"
+
+            android:inputType="date"
+
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tfRegisterAddress"
+            app:layout_constraintVertical_bias="0.032" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

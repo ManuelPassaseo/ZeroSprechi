@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ZeroSprechi</string>
+
+    <string name="tornadietro"><u>Hai già un account?</u></string>
+    <string name="register"><u>Crea un nuovo account</u></string>
+    <string-array name="category_array">
+        <item>Frutta</item>
+        <item>Verdura</item>
+        <item>Cereali</item>
+        <item>Pesce</item>
+        <item>Carne</item>
+        <item>Cereali e derivati</item>
+        <item>Altro</item>
+    </string-array>
+
+    <string-array name="graph_array">
+        <item>Anno</item>
+        <item>Categoria</item>
+
+    </string-array>
+</resources>
