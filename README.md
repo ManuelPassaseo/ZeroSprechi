@@ -7,6 +7,7 @@ ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa
 ## Utilizzo
 
 1. Avvia l'applicazione ZeroSprechi.
+    ![asd](https://github.com/ManuelPassaseo/ZeroSprechi/assets/82704502/1e635314-08b0-4a25-b7f7-4789a4b15a72)
 
 2. Registrazione Account:
 
