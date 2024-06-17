@@ -48,26 +48,26 @@ Per utilizzare ZeroSprechi sul tuo dispositivo Android:
 
 2. Registrazione Account:
 
-Crea un nuovo account compilando tutti i campi richiesti: data di nascita valida, email valida e password forte (almeno 8 caratteri, con lettere maiuscole e minuscole, almeno un numero e almeno un carattere speciale).
+    -Crea un nuovo account compilando tutti i campi richiesti: data di nascita valida, email valida e password forte (almeno 8 caratteri, con lettere maiuscole e minuscole, almeno un numero e      almeno un carattere speciale).
 3. Login.
 
 4. Gestione Spesa:
 
-Visualizza gli scontrini inseriti.
-Aggiungi nuovi scontrini o elimina quelli già presenti.
+    -Visualizza gli scontrini inseriti.
+    -Aggiungi nuovi scontrini o elimina quelli già presenti.
 5. Gestione Scadenze:
 
-Visualizza i prodotti scaduti e quelli in scadenza.
+    -Visualizza i prodotti scaduti e quelli in scadenza.
 6. Statistiche:
 
-Visualizza le statistiche per categoria di prodotti scaduti e per anno di scadenza.
+    -Visualizza le statistiche per categoria di prodotti scaduti e per anno di scadenza.
 7. Gestione Profilo:
 
-Visualizza le informazioni del proprio profilo.
-Modifica le informazioni del profilo se necessario.
+    -Visualizza le informazioni del proprio profilo.
+    -Modifica le informazioni del profilo se necessario.
 8. Contattaci:
 
-Invia un'email per contattare il supporto.
+    -Invia un'email per contattare il supporto.
 9. Logout.
 
 ## Contatti
