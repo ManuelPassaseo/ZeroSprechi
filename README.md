@@ -50,7 +50,7 @@ ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa
 
 Per utilizzare ZeroSprechi sul tuo dispositivo Android:
 
-1. Scarica il file APK più recente dal repository.
+1. Scarica il file APK più recente dal repository direttamente dal dispositvo in cui userai l'app.
 2. Abilita l'installazione da fonti sconosciute nelle impostazioni del dispositivo.
 3. Installa l'applicazione sul tuo dispositivo Android.
 
