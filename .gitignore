@@ -49,7 +49,3 @@ androidTest/java/com/example/myapplication/
 
 # Ignore test folder
 test/java/com/example/myapplication/
-
-# Rimuovi le cartelle dalla cache di Git
-git rm -r --cached androidTest/java/com/example/myapplication
-git rm -r --cached test/java/com/example/myapplication
