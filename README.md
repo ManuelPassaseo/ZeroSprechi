@@ -45,6 +45,8 @@ ZeroSprechi permette agli utenti di registrare gli alimenti presenti in dispensa
 - Java
 - Android Studio
 - SQLite per la gestione dei dati locali
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart/tree/master) libreria per visualizzare il grafico relativo alle statistiche. 
+
 
 ## Installazione
 
